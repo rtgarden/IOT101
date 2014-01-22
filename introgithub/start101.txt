@@ -1,3 +1,5 @@
 start out by getting a github account if needed,
 forking the 101 repository,
 clone it to your desktop.
+
+http://wiki.freegeek.org/index.php/Git_for_dummies
