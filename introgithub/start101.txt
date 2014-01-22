@@ -1,5 +1,11 @@
 start out by getting a github account if needed,
-forking the 101 repository,
+
+using the spoon-knife tutorial become familiar if needed with the basic concepts
+
+fork the 101 repository,
+
 clone it to your desktop.
+
+some resources (of course besides the help section on github)
 
 http://wiki.freegeek.org/index.php/Git_for_dummies
