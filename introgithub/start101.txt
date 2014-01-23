@@ -11,7 +11,9 @@ https://github.com/octocat/Spoon-Knife
 
 go ahead and fork the repository and make a clone in your desktop.
 
-You will need to become familiar with several basic concepts like forking, cloning, commits, pull requests and swim lanes.
+You will need to become familiar with several basic concepts like:
+
+forking, cloning, commits, pull requests and swim lanes.
 
 used on the github site as we are using this distributed site as a base.
 
