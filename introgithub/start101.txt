@@ -7,6 +7,8 @@ Install github on your desktop
 
 using the spoon-knife repository (tutorial) on github become familiar with the basic concepts
 
+https://github.com/octocat/Spoon-Knife
+
 used on the github site as we are using this distributed site as a base.
 
 follow the connectIOT project
