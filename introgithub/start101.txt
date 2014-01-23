@@ -1,11 +1,80 @@
-start out by getting a github account if needed,
+New to GitHub:
+==============
 
-using the spoon-knife tutorial become familiar if needed with the basic concepts
+start out by getting a github account,
+
+Install github on your desktop
+
+using the spoon-knife tutorial become familiar with the basic concepts
+
+used on the github site as we are using this distributed site as a base.
+
+follow the connectIOT project
+
+watch and star the IOT101 repository
+
+To join IOT101:
+================
 
 fork the 101 repository,
 
 clone it to your desktop.
 
-some resources (of course besides the help section on github)
+configure remotes:
+
+generally you want to create an upstream master and a working branch of a repository
+
+this way the original repository is set as the "master" 
+
+this is generally done in the terminal using 
+
+* $ git remote add upstream *
+
+the upstream master is like a pristine "version" and is often used in software version control
+
+branching your repository in your local repository you can create your own working and pristine branches
+
+when you want to update your master with material from the connect IOT master repository you will use
+
+* $ git fetch upstream *
+
+this will pull in changes not present in your local repository without modifying your files
+
+in order o merge the changes and alter your repository with the changes:
+
+* $ git merge upstream/master *
+
+this will merge the changes into your local master copy
+
+Branches are quite flexible and they can be used to organize collaboration.
+
+Branches can be seperate into sections similar to chapters, 
+
+The system of collaboration can also be shaped by how branches are shared, 
+
+Subject categories and appendix lists can be created and shared through branching
+
+allowing for the creation of a detailed reference which can have many editors and proof readers
+
+Network visualization means you can follow along with each branch using the swim lane branching visualization.
+
+Using git fetch to keep up with commits you can follow along as we update the textbook
+
+in order to do the git fetch you will need to use your terminal (many operations can be done in terminal).
+
+Using pull requests you can contribute to the collaborative effort, 
+
+There are many ways to contribute to the overall effort, even simply helping correct simple errors.
+
+
+
+
+
+More resources:
+===============
+
+https://help.github.com/
+
+http://training.github.com/
 
 http://wiki.freegeek.org/index.php/Git_for_dummies
