@@ -5,22 +5,32 @@ start out by getting a github account,
 
 Install github on your desktop
 
-using the spoon-knife repository (tutorial) on github become familiar with the basic concepts
+using the spoon-knife repository (tutorial) on github 
 
 https://github.com/octocat/Spoon-Knife
 
+go ahead and fork the repository and make a clone in your desktop.
+
+You will need to become familiar with several basic concepts like forking, cloning, commits, pull requests and swim lanes.
+
 used on the github site as we are using this distributed site as a base.
+
+You will need to use a terminal also for command line interactions.
+
+To join IOT101:
+================
+
+Locate the connectIOT project github profile:
 
 follow the connectIOT project
 
 watch and star the IOT101 repository
 
-To join IOT101:
-================
-
 fork the 101 repository,
 
 clone it to your desktop.
+
+You now have your own local remote copy of the collective textbook.
 
 configure remotes:
 ==================
@@ -82,6 +92,8 @@ Swim Lanes
 ==========
 
 Network visualization means you can follow along with each branch using the swim lane branching visualization.
+
+Eac branch has its own lane and there are indicators of its relationship to the master version
 
 The Textbook That updates itself:
 ==================================
