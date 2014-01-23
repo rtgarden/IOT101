@@ -5,7 +5,7 @@ start out by getting a github account,
 
 Install github on your desktop
 
-using the spoon-knife tutorial become familiar with the basic concepts
+using the spoon-knife repository (tutorial) on github become familiar with the basic concepts
 
 used on the github site as we are using this distributed site as a base.
 
@@ -21,46 +21,76 @@ fork the 101 repository,
 clone it to your desktop.
 
 configure remotes:
+==================
 
 generally you want to create an upstream master and a working branch of a repository
 
 this way the original repository is set as the "master" 
 
-this is generally done in the terminal using 
+this is generally done in the terminal using: 
 
 * $ git remote add upstream *
 
-the upstream master is like a pristine "version" and is often used in software version control
+the upstream master is like a pristine "version" and is often used in software version control.
 
-branching your repository in your local repository you can create your own working and pristine branches
+If you do not expect to contribute to the project simply cloning the repository and configuring
 
-when you want to update your master with material from the connect IOT master repository you will use
+the upstream master to git fetch is probably enough.
+
+For IOT101 contributing, experimenting, and branching are encouraged.
+
+Creating another branch from the copy in your local repository you can use your own
+
+two copies to maintain a personal master copy of the repository and a local working version of the repository.
+
+Git Fetch
+=========
+
+When you want to update your master with material from the connect IOT master repository you will use
+
+terminal:
 
 * $ git fetch upstream *
 
 this will pull in changes not present in your local repository without modifying your files
 
-in order o merge the changes and alter your repository with the changes:
+in order to merge the changes and alter your repository with the changes:
+
+terminal:
 
 * $ git merge upstream/master *
 
-this will merge the changes into your local master copy
+This will merge the changes into your local master copy.
+
+
+Distributed Collaboration using branches
+========================================
 
 Branches are quite flexible and they can be used to organize collaboration.
 
-Branches can be seperate into sections similar to chapters, 
+Branches can be used to seperate material into sections similar to chapters, 
 
 The system of collaboration can also be shaped by how branches are shared, 
 
 Subject categories and appendix lists can be created and shared through branching
 
-allowing for the creation of a detailed reference which can have many editors and proof readers
+allowing for the creation of a detailed reference which can have many editors and proof readers.
+
+Swim Lanes
+==========
 
 Network visualization means you can follow along with each branch using the swim lane branching visualization.
+
+The Textbook That updates itself:
+==================================
 
 Using git fetch to keep up with commits you can follow along as we update the textbook
 
 in order to do the git fetch you will need to use your terminal (many operations can be done in terminal).
+
+
+The textbook you help create:
+==============================
 
 Using pull requests you can contribute to the collaborative effort, 
 
